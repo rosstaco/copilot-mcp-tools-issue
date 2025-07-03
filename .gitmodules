@@ -1,0 +1,3 @@
+[submodule "src/duende"]
+	path = src/duende
+	url = https://github.com/rosstaco/vul-duende.git

@@ -1,0 +1,75 @@
+{
+  "scan_info": {
+    "date": "2025-07-03",
+    "target": "/workspaces/copilot-mcp-tools-issue/src/duende",
+    "scan_types": ["vuln", "misconfig", "license", "secret"],
+    "severities": ["CRITICAL", "HIGH", "MEDIUM", "LOW"],
+    "tool": "trivy-mcp"
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2024-39694",
+      "severity": "MEDIUM",
+      "package": "Duende.IdentityServer",
+      "installed_version": "7.0.0",
+      "fixed_version": "7.0.6, 6.3.10, 6.2.5, 6.1.8, 6.0.5",
+      "primary_url": "https://avd.aquasec.com/nvd/cve-2024-39694",
+      "data_source": "GitHub Security Advisory NuGet",
+      "file": ".vex/VulDuende.deps.json",
+      "description": "Vulnerability in Duende.IdentityServer package"
+    },
+    {
+      "id": "CVE-2024-49755",
+      "severity": "LOW",
+      "package": "Duende.IdentityServer",
+      "installed_version": "7.0.0",
+      "fixed_version": "7.0.8",
+      "primary_url": "https://avd.aquasec.com/nvd/cve-2024-49755",
+      "data_source": "GitHub Security Advisory NuGet",
+      "file": ".vex/VulDuende.deps.json",
+      "description": "Low severity vulnerability in Duende.IdentityServer package"
+    },
+    {
+      "id": "CVE-2024-35255",
+      "severity": "MEDIUM",
+      "package": "Microsoft.Identity.Client",
+      "installed_version": "4.61.2",
+      "fixed_version": "4.60.4, 4.61.3",
+      "primary_url": "https://avd.aquasec.com/nvd/cve-2024-35255",
+      "data_source": "GitHub Security Advisory NuGet",
+      "file": ".vex/VulDuende.deps.json",
+      "description": "Medium severity vulnerability in Microsoft.Identity.Client package"
+    },
+    {
+      "id": "CVE-2024-21319",
+      "severity": "MEDIUM",
+      "package": "Microsoft.IdentityModel.JsonWebTokens",
+      "installed_version": "7.0.3",
+      "fixed_version": "5.7.0, 6.34.0, 7.1.2",
+      "primary_url": "https://avd.aquasec.com/nvd/cve-2024-21319",
+      "data_source": "GitHub Security Advisory NuGet",
+      "file": ".vex/VulDuende.deps.json",
+      "description": "Medium severity vulnerability in Microsoft.IdentityModel.JsonWebTokens package"
+    },
+    {
+      "id": "CVE-2024-21319",
+      "severity": "MEDIUM",
+      "package": "System.IdentityModel.Tokens.Jwt",
+      "installed_version": "7.0.3",
+      "fixed_version": "5.7.0, 6.34.0, 7.1.2",
+      "primary_url": "https://avd.aquasec.com/nvd/cve-2024-21319",
+      "data_source": "GitHub Security Advisory NuGet",
+      "file": ".vex/VulDuende.deps.json",
+      "description": "Medium severity vulnerability in System.IdentityModel.Tokens.Jwt package"
+    }
+  ],
+  "summary": {
+    "total_vulnerabilities": 5,
+    "critical": 0,
+    "high": 0,
+    "medium": 4,
+    "low": 1,
+    "packages_affected": 4,
+    "unique_cves": 4
+  }
+}

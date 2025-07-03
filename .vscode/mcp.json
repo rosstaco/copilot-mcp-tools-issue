@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "trivy-mcp": {
+            "type": "stdio",
+            "command": "trivy",
+            "args": [
+                "mcp"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    }
+}
